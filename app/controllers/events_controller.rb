@@ -11,18 +11,17 @@ class EventsController < ApplicationController
 
   # GET /events/1
   def show
+    @new_comment = @event.comments.build(params[:comment])
+    @new_subscription = @event.subscriptions.build(params[:subscription])
   end
 
-  # GET /events/new
   def new
     @event = current_user.events.build
   end
 
-  # GET /events/1/edit
   def edit
   end
 
-  # POST /events
   def create
     @event = current_user.events.build(event_params)
 
@@ -33,7 +32,6 @@ class EventsController < ApplicationController
     end
   end
 
-  # PATCH/PUT /events/1
   def update
     if @event.update(event_params)
       redirect_to @event, notice: I18n.t('controllers.events.updated')
@@ -42,7 +40,6 @@ class EventsController < ApplicationController
     end
   end
 
-  # DELETE /events/1
   def destroy
     @event.destroy
     redirect_to events_url, notice: 'Event was successfully destroyed.'
