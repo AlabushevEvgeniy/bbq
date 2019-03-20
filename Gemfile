@@ -9,6 +9,9 @@ gem 'devise'
 gem 'devise-i18n'
 gem 'russian'
 
+gem 'carrierwave'
+gem 'rmagick'
+
 gem 'twitter-bootstrap-rails'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails', '~> 4.3.0'

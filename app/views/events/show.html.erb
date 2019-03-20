@@ -9,8 +9,10 @@
           <div class="event-description">
             <h1><%= @event.title %></h1>
             <h3><%= l @event.datetime, format: :short %></h3>
-            <h3><small><%= link_to @event.address,
-                "https://yandex.ru/maps/?text=#{@event.address}" %></small></h3>
+            <h3>
+              <small><%= link_to @event.address,
+                "https://yandex.ru/maps/?text=#{@event.address}" %></small>
+            </h3>
             <p><%= @event.description %></p>
           </div>
 
@@ -28,7 +30,6 @@
   <div class="row">
     <div class="col-md-8">
       <div class="event-comments buffer-top">
-
         <%= render partial: 'comments/form',
           locals: {comment: @new_comment || @event.comments.build} %>
 
@@ -42,7 +43,7 @@
     <div class="col-md-4">
       <div class="event-owner">
         <h4>Зовет:</h4>
-          <p><%= render partial: 'users/user', object: @event.user %></p>
+        <p><%= render partial: 'users/user', object: @event.user %></p>
       </div>
       <div class="event-subscriptions">
         <h4>Пойдут:</h4>
@@ -64,4 +65,3 @@
     </div>
   </div>
 </div>
-
