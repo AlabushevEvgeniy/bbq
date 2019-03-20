@@ -8,11 +8,13 @@ class User < ApplicationRecord
   has_many :comments
   has_many :subscriptions
 
-  after_commit :link_subscriptions, on: :create
-
   before_validation :set_name, on: :create
 
   validates :name, presence: true, length: {maximum: 35}
+
+  after_commit :link_subscriptions, on: :create
+
+  mount_uploader :avatar, AvatarUploader
 
   # Все эти ограничения теперь выполняет devise
   # validates :email, presence: true, length: {maximum: 255}
