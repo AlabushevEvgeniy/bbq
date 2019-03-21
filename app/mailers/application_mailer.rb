@@ -1,4 +1,4 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: 'bbq-event'
+  default from: 'gudprogtest.gmail'
   layout 'mailer'
 end
