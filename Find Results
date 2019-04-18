@@ -1,0 +1,207 @@
+Searching 331 files for "2.4.0"
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/.idea/bbq.iml:
+   27      <orderEntry type="inheritedJdk" />
+   28      <orderEntry type="sourceFolder" forTests="false" />
+   29:     <orderEntry type="library" scope="PROVIDED" name="actioncable (v5.2.2.1, RVM: ruby-2.4.0) [gem]" level="application" />
+   30:     <orderEntry type="library" scope="PROVIDED" name="actionmailer (v5.2.2.1, RVM: ruby-2.4.0) [gem]" level="application" />
+   31:     <orderEntry type="library" scope="PROVIDED" name="actionpack (v5.2.2.1, RVM: ruby-2.4.0) [gem]" level="application" />
+   32:     <orderEntry type="library" scope="PROVIDED" name="actionview (v5.2.2.1, RVM: ruby-2.4.0) [gem]" level="application" />
+   33:     <orderEntry type="library" scope="PROVIDED" name="activejob (v5.2.2.1, RVM: ruby-2.4.0) [gem]" level="application" />
+   34:     <orderEntry type="library" scope="PROVIDED" name="activemodel (v5.2.2.1, RVM: ruby-2.4.0) [gem]" level="application" />
+   35:     <orderEntry type="library" scope="PROVIDED" name="activerecord (v5.2.2.1, RVM: ruby-2.4.0) [gem]" level="application" />
+   36:     <orderEntry type="library" scope="PROVIDED" name="activestorage (v5.2.2.1, RVM: ruby-2.4.0) [gem]" level="application" />
+   37:     <orderEntry type="library" scope="PROVIDED" name="activesupport (v5.2.2.1, RVM: ruby-2.4.0) [gem]" level="application" />
+   38:     <orderEntry type="library" scope="PROVIDED" name="arel (v9.0.0, RVM: ruby-2.4.0) [gem]" level="application" />
+   39:     <orderEntry type="library" scope="PROVIDED" name="bcrypt (v3.1.12, RVM: ruby-2.4.0) [gem]" level="application" />
+   40:     <orderEntry type="library" scope="PROVIDED" name="bindex (v0.5.0, RVM: ruby-2.4.0) [gem]" level="application" />
+   41:     <orderEntry type="library" scope="PROVIDED" name="bootsnap (v1.4.1, RVM: ruby-2.4.0) [gem]" level="application" />
+   42:     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.3, RVM: ruby-2.4.0) [gem]" level="application" />
+   43:     <orderEntry type="library" scope="PROVIDED" name="bundler (v2.0.1, RVM: ruby-2.4.0) [gem]" level="application" />
+   44:     <orderEntry type="library" scope="PROVIDED" name="byebug (v11.0.0, RVM: ruby-2.4.0) [gem]" level="application" />
+   45:     <orderEntry type="library" scope="PROVIDED" name="commonjs (v0.2.7, RVM: ruby-2.4.0) [gem]" level="application" />
+   46:     <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.1.5, RVM: ruby-2.4.0) [gem]" level="application" />
+   47:     <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.4, RVM: ruby-2.4.0) [gem]" level="application" />
+   48:     <orderEntry type="library" scope="PROVIDED" name="devise (v4.6.1, RVM: ruby-2.4.0) [gem]" level="application" />
+   49:     <orderEntry type="library" scope="PROVIDED" name="devise-i18n (v1.8.0, RVM: ruby-2.4.0) [gem]" level="application" />
+   50:     <orderEntry type="library" scope="PROVIDED" name="erubi (v1.8.0, RVM: ruby-2.4.0) [gem]" level="application" />
+   51:     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.7.0, RVM: ruby-2.4.0) [gem]" level="application" />
+   52:     <orderEntry type="library" scope="PROVIDED" name="ffi (v1.10.0, RVM: ruby-2.4.0) [gem]" level="application" />
+   53:     <orderEntry type="library" scope="PROVIDED" name="globalid (v0.4.2, RVM: ruby-2.4.0) [gem]" level="application" />
+   54:     <orderEntry type="library" scope="PROVIDED" name="i18n (v1.6.0, RVM: ruby-2.4.0) [gem]" level="application" />
+   55:     <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v4.3.3, RVM: ruby-2.4.0) [gem]" level="application" />
+   56:     <orderEntry type="library" scope="PROVIDED" name="less (v2.6.0, RVM: ruby-2.4.0) [gem]" level="application" />
+   57:     <orderEntry type="library" scope="PROVIDED" name="less-rails (v2.8.0, RVM: ruby-2.4.0) [gem]" level="application" />
+   58:     <orderEntry type="library" scope="PROVIDED" name="listen (v3.1.5, RVM: ruby-2.4.0) [gem]" level="application" />
+   59:     <orderEntry type="library" scope="PROVIDED" name="loofah (v2.2.3, RVM: ruby-2.4.0) [gem]" level="application" />
+   60:     <orderEntry type="library" scope="PROVIDED" name="mail (v2.7.1, RVM: ruby-2.4.0) [gem]" level="application" />
+   61:     <orderEntry type="library" scope="PROVIDED" name="marcel (v0.3.3, RVM: ruby-2.4.0) [gem]" level="application" />
+   62:     <orderEntry type="library" scope="PROVIDED" name="method_source (v0.9.2, RVM: ruby-2.4.0) [gem]" level="application" />
+   63:     <orderEntry type="library" scope="PROVIDED" name="mimemagic (v0.3.3, RVM: ruby-2.4.0) [gem]" level="application" />
+   64:     <orderEntry type="library" scope="PROVIDED" name="mini_mime (v1.0.1, RVM: ruby-2.4.0) [gem]" level="application" />
+   65:     <orderEntry type="library" scope="PROVIDED" name="mini_portile2 (v2.4.0, RVM: ruby-2.4.0) [gem]" level="application" />
+   66:     <orderEntry type="library" scope="PROVIDED" name="minitest (v5.11.3, RVM: ruby-2.4.0) [gem]" level="application" />
+   67:     <orderEntry type="library" scope="PROVIDED" name="msgpack (v1.2.9, RVM: ruby-2.4.0) [gem]" level="application" />
+   68:     <orderEntry type="library" scope="PROVIDED" name="nio4r (v2.3.1, RVM: ruby-2.4.0) [gem]" level="application" />
+   69:     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.10.1, RVM: ruby-2.4.0) [gem]" level="application" />
+   70:     <orderEntry type="library" scope="PROVIDED" name="orm_adapter (v0.5.0, RVM: ruby-2.4.0) [gem]" level="application" />
+   71:     <orderEntry type="library" scope="PROVIDED" name="pg (v1.1.4, RVM: ruby-2.4.0) [gem]" level="application" />
+   72:     <orderEntry type="library" scope="PROVIDED" name="rack (v2.0.6, RVM: ruby-2.4.0) [gem]" level="application" />
+   73:     <orderEntry type="library" scope="PROVIDED" name="rack-test (v1.1.0, RVM: ruby-2.4.0) [gem]" level="application" />
+   74:     <orderEntry type="library" scope="PROVIDED" name="rails (v5.2.2.1, RVM: ruby-2.4.0) [gem]" level="application" />
+   75:     <orderEntry type="library" scope="PROVIDED" name="rails-dom-testing (v2.0.3, RVM: ruby-2.4.0) [gem]" level="application" />
+   76:     <orderEntry type="library" scope="PROVIDED" name="rails-html-sanitizer (v1.0.4, RVM: ruby-2.4.0) [gem]" level="application" />
+   77:     <orderEntry type="library" scope="PROVIDED" name="railties (v5.2.2.1, RVM: ruby-2.4.0) [gem]" level="application" />
+   78:     <orderEntry type="library" scope="PROVIDED" name="rake (v12.3.2, RVM: ruby-2.4.0) [gem]" level="application" />
+   79:     <orderEntry type="library" scope="PROVIDED" name="rb-fsevent (v0.10.3, RVM: ruby-2.4.0) [gem]" level="application" />
+   80:     <orderEntry type="library" scope="PROVIDED" name="rb-inotify (v0.10.0, RVM: ruby-2.4.0) [gem]" level="application" />
+   81:     <orderEntry type="library" scope="PROVIDED" name="responders (v2.4.1, RVM: ruby-2.4.0) [gem]" level="application" />
+   82:     <orderEntry type="library" scope="PROVIDED" name="ruby_dep (v1.5.0, RVM: ruby-2.4.0) [gem]" level="application" />
+   83:     <orderEntry type="library" scope="PROVIDED" name="russian (v0.6.0, RVM: ruby-2.4.0) [gem]" level="application" />
+   84:     <orderEntry type="library" scope="PROVIDED" name="sprockets (v3.7.2, RVM: ruby-2.4.0) [gem]" level="application" />
+   85:     <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v3.2.1, RVM: ruby-2.4.0) [gem]" level="application" />
+   86:     <orderEntry type="library" scope="PROVIDED" name="sqlite3 (v1.3.13, RVM: ruby-2.4.0) [gem]" level="application" />
+   87:     <orderEntry type="library" scope="PROVIDED" name="thor (v0.20.3, RVM: ruby-2.4.0) [gem]" level="application" />
+   88:     <orderEntry type="library" scope="PROVIDED" name="thread_safe (v0.3.6, RVM: ruby-2.4.0) [gem]" level="application" />
+   89:     <orderEntry type="library" scope="PROVIDED" name="tilt (v2.0.9, RVM: ruby-2.4.0) [gem]" level="application" />
+   90:     <orderEntry type="library" scope="PROVIDED" name="twitter-bootstrap-rails (v4.0.0, RVM: ruby-2.4.0) [gem]" level="application" />
+   91:     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v1.2.5, RVM: ruby-2.4.0) [gem]" level="application" />
+   92:     <orderEntry type="library" scope="PROVIDED" name="uglifier (v4.1.20, RVM: ruby-2.4.0) [gem]" level="application" />
+   93:     <orderEntry type="library" scope="PROVIDED" name="warden (v1.2.8, RVM: ruby-2.4.0) [gem]" level="application" />
+   94:     <orderEntry type="library" scope="PROVIDED" name="web-console (v3.7.0, RVM: ruby-2.4.0) [gem]" level="application" />
+   95:     <orderEntry type="library" scope="PROVIDED" name="websocket-driver (v0.7.0, RVM: ruby-2.4.0) [gem]" level="application" />
+   96:     <orderEntry type="library" scope="PROVIDED" name="websocket-extensions (v0.1.3, RVM: ruby-2.4.0) [gem]" level="application" />
+   97    </component>
+   98    <component name="RModuleSettingsStorage">
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/.idea/misc.xml:
+    4      <option name="languageLevel" value="ES6" />
+    5    </component>
+    6:   <component name="ProjectRootManager" version="2" project-jdk-name="RVM: ruby-2.4.0" project-jdk-type="RUBY_SDK" />
+    7  </project>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/.ruby-version:
+    1: ruby-2.5.3
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/Gemfile.lock:
+  119      mimemagic (0.3.3)
+  120      mini_mime (1.0.1)
+  121:     mini_portile2 (2.4.0)
+  122      minitest (5.11.3)
+  123      msgpack (1.2.9)
+  ...
+  125      nio4r (2.3.1)
+  126      nokogiri (1.10.1)
+  127:       mini_portile2 (~> 2.4.0)
+  128      orm_adapter (0.5.0)
+  129      pg (1.1.4)
+  ...
+  219  
+  220  RUBY VERSION
+  221:    ruby 2.5.3p0
+  222  
+  223  BUNDLED WITH
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/log/development.log:
+    <binary>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/tmp/cache/assets/sprockets/v3.0/0X/0XtEjFHdgw3KZqbTe11GecRfRbTPC3eAVf3vV7RizRg.cache:
+    <binary>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/tmp/cache/assets/sprockets/v3.0/0Z/0ZCyDfzCUImxiEhUOz-mu2srMJWVTNrqPbJRUrpDzKc.cache:
+    <binary>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/tmp/cache/assets/sprockets/v3.0/1s/1sLjEelEAIdjI_WFSyib5AWJtw2XqvR7iM6E0pvQQAc.cache:
+    <binary>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/tmp/cache/assets/sprockets/v3.0/1u/1uhyZaZRwnU_e5SH6OCDKjLzhd00io_-3nEIGyOLs5Y.cache:
+    <binary>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/tmp/cache/assets/sprockets/v3.0/2Y/2Yql5PZriJl1LSqfLgjT3TXKW8a4lfblKIg5HscyaRA.cache:
+    <binary>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/tmp/cache/assets/sprockets/v3.0/3_/3_N9S2yXupU6e3Gc9MbEiHwBcFvhj5h9SElSGBZngL4.cache:
+    <binary>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/tmp/cache/assets/sprockets/v3.0/4C/4CjKIBGN15iZiTbvgwKM3CT9IpH9iXsPaBrUdtMk930.cache:
+    <binary>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/tmp/cache/assets/sprockets/v3.0/6O/6OFfdn_a-myloCCM34cszfIcF7R4GobPiaaDspk1gLo.cache:
+    <binary>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/tmp/cache/assets/sprockets/v3.0/8A/8AEMCMAQFm0j3dsza9F1ohvkKP3uOaj1JELJ1sg2BVg.cache:
+    <binary>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/tmp/cache/assets/sprockets/v3.0/9B/9Brar-cA5MFU8hEus2Ce1w5nKJrL7i1KoF4WO3n5CPw.cache:
+    <binary>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/tmp/cache/assets/sprockets/v3.0/DC/DCALPSkv-VvCtODXFDA-AJEx8xkkC4N5H0nbEkS_NwY.cache:
+    <binary>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/tmp/cache/assets/sprockets/v3.0/f3/f3nBI7-cLzVbx83ohr4o57gc2xuPBHGHkENq8Yc-LjM.cache:
+    <binary>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/tmp/cache/assets/sprockets/v3.0/gT/gTzy6ABq3vua-GHCwJS7_3RaRvd2YA2VAnVsrYnoeQY.cache:
+    <binary>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/tmp/cache/assets/sprockets/v3.0/hv/hviq0CJhSqPNwlb0C-nqhRpLHzgs5qbyF4Z5KylDy_U.cache:
+    <binary>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/tmp/cache/assets/sprockets/v3.0/hz/hzxFwLH8aD-n_XUiINOopkNpRsP9h0y8Ye8QBLCAe04.cache:
+    <binary>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/tmp/cache/assets/sprockets/v3.0/IM/IMSZs7oLSO483YW_KcHCCLR2UelPh8oFB9VFUt7E5mc.cache:
+    <binary>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/tmp/cache/assets/sprockets/v3.0/io/iouQM4Lws8vaY5eZxl8tUNOUbhwAxB7Kj3YHj6H8Uls.cache:
+    <binary>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/tmp/cache/assets/sprockets/v3.0/JT/JTAAr3ElpBXRid-j1gdzgnXUpsI9MqQc6ho5rSJaW9Y.cache:
+    <binary>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/tmp/cache/assets/sprockets/v3.0/K9/K9UmDTeMG7ZVrYZ-rAmltjqY8gX5ShkgtwZnFn-b86c.cache:
+    <binary>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/tmp/cache/assets/sprockets/v3.0/ku/kuVmvIAwnlIyJy2ZTea-SWvoWupHzHc-fcNS8oLIbIg.cache:
+    <binary>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/tmp/cache/assets/sprockets/v3.0/L7/L7SI34PLSghJhlEk26dK23XWha1Ip1wn_MCxUzzzkok.cache:
+    <binary>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/tmp/cache/assets/sprockets/v3.0/n6/n6DsP4eew3pjxJ3_jYMaMVXZMYSuPk7zlkeONy4RSe0.cache:
+    <binary>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/tmp/cache/assets/sprockets/v3.0/PE/PEmkNzsMCCOPrh1HKvfeprRR3lV1dautxb0RpQUNNC4.cache:
+    <binary>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/tmp/cache/assets/sprockets/v3.0/rj/rjZ7NN0NEZrVXyMz9GPvQg8Ps1eveberlGVVhFJeFoI.cache:
+    <binary>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/tmp/cache/assets/sprockets/v3.0/RL/RLu-NxdV0se3390FBNDhYhQDdb7Da0jRJ5Z5UI28Kz4.cache:
+    <binary>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/tmp/cache/assets/sprockets/v3.0/SI/SIkB8b-wJdoI-crhVfUs3_b7Ud8UqRYtyTM-GbcCLe8.cache:
+    <binary>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/tmp/cache/assets/sprockets/v3.0/sz/szI_Z56ZxJyVzRfXIL8JNX4VgdI4f6ywPXePQxU2DWA.cache:
+    <binary>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/tmp/cache/assets/sprockets/v3.0/tA/tAYtRjNomz7Sh1oLNX_39yRzTEn9rdVxIlaHRsDXMCc.cache:
+    <binary>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/tmp/cache/assets/sprockets/v3.0/Vu/VuDOU_NTe8c3hFI_M-AAZpk1UTFyJbvbC91wgP_U8GE.cache:
+    <binary>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/tmp/cache/assets/sprockets/v3.0/X-/X-jn_c8IW20MvqpBHqohMARo8s4wG_6fBECm3AdXDMw.cache:
+    <binary>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/tmp/cache/assets/sprockets/v3.0/xx/xxRo5Q6TDm_6j1n3TCqZEg3RWHtk5M-TS5D0PfY71dE.cache:
+    <binary>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/tmp/cache/assets/sprockets/v3.0/Xy/XyjJBx9vMUoWBjdy4GaiOh9GM0nNOCZTFb18v-lEocU.cache:
+    <binary>
+
+/home/alabushevevgeniy/rubytut/rortut/bbq/tmp/cache/assets/sprockets/v3.0/YW/YWzYTEpSOp0mu7W9MEd2bFA1vJUmBFAJLMvbZ3M4AU0.cache:
+    <binary>
+
+759 matches across 38 files
