@@ -12,11 +12,15 @@ gem 'russian'
 gem 'carrierwave'
 gem 'rmagick'
 gem 'fog-aws'
+gem 'mini_racer', '~> 0.2.4'
+gem 'dotenv-rails', '~> 2.7', '>= 2.7.2'
+
 
 gem 'twitter-bootstrap-rails'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails', '~> 4.3.0'
 gem 'bootsnap', '>= 1.1.0', require: false
+gem 'listen', '>= 3.0.5', '< 3.2'
 
 group :production do
   gem 'pg'
@@ -30,6 +34,5 @@ end
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 3.3.0'
-  gem 'listen', '>= 3.0.5', '< 3.2'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 end
