@@ -1,0 +1,32 @@
+<h2>Регистрация</h2>
+
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+  <%= render "devise/shared/error_messages", resource: resource %>
+
+  <div class="form-group col-4">
+    <%= f.label :email %><br />
+    <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "form-control",  placeholder: "Enter email" %>
+    <%= fas_icon("envelope fa-2x") %>
+  </div>
+
+  <div class="form-group">
+    <%= f.label :password %>
+    <% if @minimum_password_length %>
+    <em>(<%= @minimum_password_length %> characters minimum)</em>
+    <% end %><br />
+    <%= f.password_field :password, autocomplete: "new-password", class: "form-control",  placeholder: "Enter password" %>
+    <%= fas_icon("unlock-alt fa-2x") %>
+  </div>
+
+  <div class="form-group">
+    <%= f.label :password_confirmation %><br />
+    <%= f.password_field :password_confirmation, autocomplete: "new-password", class: "form-control",  placeholder: "Enter password again" %>
+    <%= fas_icon("unlock-alt fa-2x") %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "Зарегистрироваться", class: "btn btn-primary" %>
+  </div>
+<% end %>
+
+<%= render "devise/shared/links" %>

@@ -8,6 +8,7 @@ gem 'rails', '~> 5.2.2'
 gem 'devise'
 gem 'devise-i18n'
 gem 'russian'
+gem 'bootstrap', '~> 4.3.1'
 
 gem 'carrierwave'
 gem 'rmagick'
