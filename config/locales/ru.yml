@@ -74,4 +74,10 @@ ru:
       author: 'Автор'
       event: 'Событие'
       datetime: 'Состоится'
-      owner: 'Организатор'    
+      owner: 'Организатор'   
+
+  password:
+    forgot: 'Забыли пароль?'
+    change: 'Изменить пароль'
+  log_in:
+    in: 'Войти'     
