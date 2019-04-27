@@ -81,3 +81,7 @@ ru:
     change: 'Изменить пароль'
   log_in:
     in: 'Войти'     
+  errors:
+    one: '%{count} ошибка'
+    few: '%{count} ошибки'
+    many: '%{count} ошибок' 

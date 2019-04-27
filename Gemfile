@@ -7,7 +7,7 @@ ruby '2.5.3'
 gem 'rails', '~> 5.2.2'
 gem 'devise'
 gem 'devise-i18n'
-gem 'russian'
+gem 'rails-i18n'
 gem 'bootstrap', '~> 4.3.1'
 
 gem 'carrierwave'
