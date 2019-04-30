@@ -13,7 +13,9 @@
         </div>
     <% end %>
 
-    <div class="actions">
-      <%= f.submit 'Подписаться', class: 'btn btn-primary' %>
-    </div>
+    <% unless current_user_can_edit? %>
+      <div class="actions">
+        <%= f.submit 'Подписаться', class: 'btn btn-primary' %>
+      </div>
+    <% end %>
 <% end %>
