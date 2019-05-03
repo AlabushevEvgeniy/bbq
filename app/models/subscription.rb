@@ -41,6 +41,10 @@ class Subscription < ApplicationRecord
   private
 
   def is_user_email_registered?
+<<<<<<< HEAD
+=======
+    # @subscription.user_id == @event.where(user_id: subscription.user_id)
+>>>>>>> f9e1c07109adb35fe47d83fafc2eb4145e8fcfb1
     if User.find_by(email: user_email).present?
       errors.add(:user_email, :taken)
     end
