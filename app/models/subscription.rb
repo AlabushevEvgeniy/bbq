@@ -2,7 +2,6 @@ class Subscription < ApplicationRecord
   belongs_to :event
   belongs_to :user, optional: true
 
-  # Обязательно должно быть событие
   validates :event, presence: true
 
   # Проверки user_name и user_email выполняются,
@@ -15,6 +14,8 @@ class Subscription < ApplicationRecord
 
   # Или один email может использоваться только один раз (если анонимная подписка)
   validates :user_email, uniqueness: {scope: :event_id}, unless: -> { user.present? }
+
+  validate :is_user_email_registered?
 
 
   # Если есть юзер, выдаем его имя,
@@ -34,6 +35,14 @@ class Subscription < ApplicationRecord
       user.email
     else
       super
+    end
+  end
+
+  private
+
+  def is_user_email_registered?
+    if User.find_by(email: user_email).present?
+      errors.add(:user_email, :taken)
     end
   end
 end

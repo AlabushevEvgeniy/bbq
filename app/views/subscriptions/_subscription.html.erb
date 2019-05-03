@@ -4,6 +4,7 @@
   <% else %>
     <em><%= subscription.user_name %></em>
   <% end %>
+
   <% if current_user_can_edit?(subscription) %>
     <%= link_to(
             fas_icon('times'),
