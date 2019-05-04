@@ -2,8 +2,6 @@ class UsersController < ApplicationController
   # Девайзовский фильтр, который посылает незалогинившихся юзеров
   # Просматривать профили могут и анонимы
   before_action :authenticate_user!, except: [:show]
-
-  # Задаем объект @user для шаблонов и экшенов
   before_action :set_current_user, except: [:show]
 
   # GET /users/1
@@ -25,7 +23,6 @@ class UsersController < ApplicationController
   end
 
   private
-
   def set_current_user
     @user = current_user
   end

@@ -16,13 +16,12 @@ class User < ApplicationRecord
 
   mount_uploader :avatar, AvatarUploader
 
-  # Все эти ограничения теперь выполняет devise
+  # Все эти ограничения теперь выполняет devise:
   # validates :email, presence: true, length: {maximum: 255}
   # validates :email, uniqueness: true
   # validates :email, format: /\A[a-zA-Z0-9\-_.]+@[a-zA-Z0-9\-_.]+\z/
 
   private
-
   def set_name
     self.name = "Товарисч №#{rand(777)}" if self.name.blank?
   end
