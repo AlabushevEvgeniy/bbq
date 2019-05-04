@@ -8,13 +8,11 @@ class SubscriptionsController < ApplicationController
 
   def create
     # Болванка для новой подписки
-    unless current_user_can_edit?(@event)
-      @new_subscription = @event.subscriptions.build(subscription_params)
-      @new_subscription.user = current_user
-    end
+    @new_subscription = @event.subscriptions.build(subscription_params)
+    @new_subscription.user = current_user
 
-
-    if @new_subscription.present? && @new_subscription.save
+    if @new_subscription.present? && current_user_can_edit?(@event)
+      @new_subscription.save
       # Если сохранилось, отправляем письмо
       # Пишем название класса, потом метода и передаём параметры
       # И доставляем методом .deliver_now (то есть в этом же потоке)
