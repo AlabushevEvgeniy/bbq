@@ -35,6 +35,7 @@ class PhotosController < ApplicationController
   end
 
   private
+
   # автоматически положат id события, которому принадлежит фотография
   # Это событие будет лежать в переменной контроллера @event
   def set_event

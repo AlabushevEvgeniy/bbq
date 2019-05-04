@@ -1,7 +1,6 @@
 class SubscriptionsController < ApplicationController
-# Задаем родительский event для подписки
+  # Задаем родительский event для подписки
   before_action :set_event, only: [:create, :destroy]
-
   # Задаем подписку, которую юзер хочет удалить
   before_action :set_subscription, only: [:destroy]
 
@@ -11,8 +10,9 @@ class SubscriptionsController < ApplicationController
     @new_subscription = @event.subscriptions.build(subscription_params)
     @new_subscription.user = current_user
 
-    if @new_subscription.present? && current_user_can_edit?(@event)
-      @new_subscription.save
+    if @event.user != current_user && @new_subscription.save
+    # либо так: if !current_user_can_edit?(@event) && @new_subscription.save
+
       # Если сохранилось, отправляем письмо
       # Пишем название класса, потом метода и передаём параметры
       # И доставляем методом .deliver_now (то есть в этом же потоке)
@@ -37,6 +37,7 @@ class SubscriptionsController < ApplicationController
   end
 
   private
+
     def set_subscription
       @subscription = @event.subscriptions.find(params[:id])
     end
