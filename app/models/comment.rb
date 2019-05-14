@@ -1,6 +1,6 @@
 class Comment < ApplicationRecord
   belongs_to :event
-  belongs_to :user #optional: true
+  belongs_to :user, optional: true
   # Не может быть комментария без события
   validates :event, presence: true
   # Пустой комментарий тоже недопустим

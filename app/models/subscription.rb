@@ -35,8 +35,9 @@ class Subscription < ApplicationRecord
   end
 
   private
+
   def is_user_email_registered?
-    if User.find_by(email: user_email).present?
+    if User.find_by(email: user_email).present? && Subscription.find_by(user_email: user_email).present?
       errors.add(:user_email, :taken)
     end
   end
