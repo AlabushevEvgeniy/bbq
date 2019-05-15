@@ -58,6 +58,7 @@ class PhotosController < ApplicationController
 
     all_emails.each do |mail|
       EventMailer.photo(event, photo, mail).deliver_now
+      # attachments.inline['#{photo.photo}'] = File.read('uploads/photo/photo/#{photo.id}/#{photo.photo}')
     end
   end
 end
