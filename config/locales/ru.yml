@@ -76,7 +76,13 @@ ru:
       author: 'Автор'
       event: 'Событие'
       datetime: 'Состоится'
-      owner: 'Организатор'   
+      owner: 'Организатор'
+    photo:
+      title: 'Новое фото'
+      author: 'Автор'
+      event: 'Событие'
+      datetime: 'Состоится'
+      owner: 'Организатор'     
 
   password:
     forgot: 'Забыли пароль?'
