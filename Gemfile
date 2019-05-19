@@ -16,10 +16,11 @@ gem 'fog-aws'
 gem 'mini_racer', '~> 0.2.4'
 gem 'dotenv-rails', '~> 2.7', '>= 2.7.2'
 
-
 gem 'twitter-bootstrap-rails'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails', '~> 4.3.0'
+gem 'sass-rails'
+gem 'coffee-rails'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'listen', '>= 3.0.5', '< 3.2'
 
