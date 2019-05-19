@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require rails-ujs
+//= require lightbox-bootstrap
 //= require activestorage
 //= require twitter/bootstrap
 //= require_tree .

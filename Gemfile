@@ -9,6 +9,7 @@ gem 'devise'
 gem 'devise-i18n'
 gem 'rails-i18n'
 gem 'bootstrap', '~> 4.3.1'
+gem 'lightbox-bootstrap-rails', '5.1.0.1'
 
 gem 'carrierwave'
 gem 'rmagick'

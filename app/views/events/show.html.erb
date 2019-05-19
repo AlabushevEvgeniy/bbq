@@ -42,6 +42,13 @@
     </div>
   </div>
 
+  <div class="event-photos-gallery row">
+    <div class="event-photo-line event-photo">
+      <%= render partial: 'photos/lightbox', collection: @event.photos.except(@new_photo) %>
+    </div>
+  </div>
+
+
   <div class="row">
     <div class="col-md-8">
       <div class="event-photos">
