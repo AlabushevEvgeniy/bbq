@@ -1,8 +1,3 @@
-/*
-(с) goodprogrammer.ru
-Наши дополнительные стили для красивого оформления плитки событий
- */
-
 .event-info {
   position: relative;
   color: white;
@@ -44,10 +39,14 @@
   background:rgba(0, 0, 0, 0.4);
 }
 
+.event-info-inner .show {
+  background:rgba(0, 0, 0, 0.4);
+}
+
 .event-map {
   /*margin: 20px 0;*/
   width: 100%;
-  height: 200px;
+  height: 220px;
 }
 
 .event-text {
