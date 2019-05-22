@@ -12,8 +12,5 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 # application.js, application.css, and all non-JS/CSS in the app/assets
 # folder are already added.
 # Rails.application.config.assets.precompile += %w( admin.js admin.css )
-Rails.application.config.assets.precompile += ['application.js', 'bootstrap.js', 'cable.js', 'ekko-lightbox.js',
-              'ekko-lightbox.min.js', 'lightbox.js', 'lightbox_bootstraped.coffee',
-              'maps.js', 'application.css', 'bootstrap_and_overrides.css',
-              'ekko-lightbox.css', 'events.css', 'users.css', '*.css.erb']
+Rails.application.config.assets.precompile += ['*.js', '^[^_]*.css', '*.css.erb', 'lightbox/*']
 # Rails.application.config.assets.precompile += [/^[-_a-zA-Z0-9]*\..*/]
