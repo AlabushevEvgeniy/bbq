@@ -50,3 +50,14 @@
 .event-text {
   color: black
 }
+
+.event-photo {
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+.photo {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}

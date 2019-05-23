@@ -13,7 +13,7 @@
     <% image_title += photo_delete %>
   <% end %>
 
-  <div class="event-photo buffer-both">
-    <%= link_to image_tag(photo.photo.thumb.url), photo.photo.url, data: {
+  <span event-photo">
+    <%= link_to image_tag((photo.photo.thumb.url), class: 'photo'), photo.photo.url, data: {
       lightbox: 'photo', title: image_title } %>
-  </div>
+  </span>
