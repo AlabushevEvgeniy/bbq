@@ -65,6 +65,10 @@ Rails.application.configure do
 
   config.action_mailer.perform_caching = false
 
+  config.action_mailer.delivery_method = :sendmail
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.default_url_options = { host: 'gudprogtest.ru' }
+
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
   # config.action_mailer.raise_delivery_errors = false
@@ -97,7 +101,7 @@ Rails.application.configure do
 
   # Базовый URL сайта для правильных ссылок в письмах
   # ПРОПИСЫВАЙТЕ свой!
-  config.action_mailer.default_url_options = {host: 'bbq-event.herokuapp.com'}
+  config.action_mailer.default_url_options = {host: 'gudprogtest.ru'}
 
   # Ошибки рассылки юзеру не показываем
   config.action_mailer.raise_delivery_errors = false
@@ -115,7 +119,7 @@ Rails.application.configure do
     :authentication => :plain,
     :user_name      => ENV['SENDGRID_USERNAME'],
     :password       => ENV['SENDGRID_PASSWORD'],
-    :domain         => 'heroku.com',
+    :domain         => 'gudprogtest.ru',
     :enable_starttls_auto => true
   }
 end
