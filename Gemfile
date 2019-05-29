@@ -17,6 +17,7 @@ gem 'rmagick'
 gem 'fog-aws'
 gem 'mini_racer', '~> 0.2.4'
 gem 'dotenv-rails', '~> 2.7', '>= 2.7.2'
+gem 'pundit', '~> 1.1'
 
 gem 'twitter-bootstrap-rails'
 gem 'uglifier', '>= 1.3.0'
@@ -32,6 +33,8 @@ end
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'rspec-rails'
+  gem 'shoulda-matchers'
   gem 'sqlite3', '~> 1.3.6'
 end
 
