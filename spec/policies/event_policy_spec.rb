@@ -1,27 +1,37 @@
 require 'rails_helper'
 
 RSpec.describe EventPolicy do
-  let(:user) {User.new}
-  let(:owner) {User.new}
-  let(:event) {owner.events.build}
+  let(:user) {FactoryBot.create(:user)}
+  let(:owner) {FactoryBot.create(:user)}
 
-  # объект тестирования (политика)
   subject { EventPolicy }
 
-  permissions :create?, :new? do
-    it { is_expected.to permit(owner, Event.new) }
-    it { is_expected.to permit(user, Event.new) }
-    it { is_expected.not_to permit(nil, Event.new) }
+  context 'when user is not an owner' do
+    let(:event) {owner.events.build}
+
+    permissions :update?, :edit?, :destroy? do
+      it { is_expected.not_to permit(user, event) }
+      it { is_expected.not_to permit(nil, event) }
+    end
+
+    permissions :show? do
+      it { should permit(user, event, :show?) }
+    end
   end
 
-  permissions :update?, :edit?, :destroy? do
-    it { is_expected.to permit(owner, event) }
-    it { is_expected.not_to permit(user, event) }
-    it { is_expected.not_to permit(nil, event) }
+  context 'when user is an owner' do
+    let(:event) {FactoryBot.create(:event, user: owner)}
+
+    permissions :update?, :edit?, :destroy? do
+      it { is_expected.to permit(owner, event) }
+    end
   end
 
-  permissions :show? do
-    it { is_expected.to permit(user, event) }
-    it { is_expected.to permit(nil, event) }
-  end
+  # context 'being is not an owner' do
+  #   let(:user) { User.create }
+  #   let(:event) { Event.create(title: 'New Year', user: owner) }
+
+  #   it { is_expected.to permit_action(:show) }
+  #   it { is_expected.to forbid_action(:destroy) }
+  # end
 end
