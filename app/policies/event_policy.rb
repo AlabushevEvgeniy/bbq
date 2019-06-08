@@ -9,13 +9,12 @@ class EventPolicy < ApplicationPolicy
   end
 
   def update?
-    user_is_owner?(@event)
+    user_is_owner?(record)
   end
 
   def destroy?
     update?
   end
-
 
   class Scope < Scope
     def resolve
