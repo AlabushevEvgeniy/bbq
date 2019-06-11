@@ -2,10 +2,6 @@
 lock "~> 3.11.0"
 
 set :application, "bbq"
-set :repo_url, "git@example.com:me/my_repo.git"
-
-# Это url вашего репозитория, откуда Capistrano
-# будет брать свежие версии исходников
 set :repo_url, 'git@github.com:AlabushevEvgeniy/bbq.git'
 
 # Папка, где будет храниться приложение
@@ -15,6 +11,7 @@ set :deploy_to, '/home/deploy/apps/bbq'
 append :linked_files, 'config/database.yml', 'config/master.key', '.env'
 append :linked_dirs, 'log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system', 'public/uploads'
 
+after 'deploy:restart', 'resque:restart'
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 

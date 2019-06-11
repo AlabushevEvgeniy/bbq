@@ -18,6 +18,7 @@ gem 'fog-aws'
 gem 'mini_racer', '~> 0.2.4'
 gem 'dotenv-rails', '~> 2.7', '>= 2.7.2'
 gem 'pundit', '~> 1.1'
+gem 'resque', '~> 2.0'
 
 gem 'twitter-bootstrap-rails'
 gem 'uglifier', '>= 1.3.0'
@@ -49,5 +50,6 @@ group :development do
   gem 'capistrano-passenger', '~> 0.2'
   gem 'capistrano-rbenv', '~> 2.1'
   gem 'capistrano-bundler', '~> 1.4.0'
+  gem 'capistrano-resque', '~> 0.2.3', require: false
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 end
