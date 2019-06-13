@@ -19,7 +19,6 @@ class EventsController < ApplicationController
 
   def new
     @event = current_user.events.build
-    authorize @event
   end
 
   def edit
@@ -28,8 +27,6 @@ class EventsController < ApplicationController
 
   def create
     @event = current_user.events.build(event_params)
-    authorize @event
-
     if @event.save
       redirect_to @event, notice: I18n.t('controllers.events.created')
     else
